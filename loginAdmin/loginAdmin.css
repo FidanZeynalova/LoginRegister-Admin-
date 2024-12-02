@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 20%;
+    left: 0;
+    background-color: #1d374e;
+    height: 100vh;
+    padding: 20px 10px;
+    color: white;
+    position: fixed;
+
+    .logoHead {
+        .fa-paw {
+            border: 1px solid white;
+            padding: 7px;
+            border-radius: 50%;
+            color: white;
+            font-size: 22px;
+        }
+
+        span {
+            font-size: 22px;
+            color: white;
+        }
+    }
+
+    .admin {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        color: white;
+        font-size: 18px;
+
+        .img {
+            width: 90px;
+            margin: 10px 0;
+            border-radius: 50%;
+            background-color: white;
+            padding: 10px;
+
+            img {
+                width: 100%;
+                border-radius: 45%;
+            }
+        }
+    }
+
+    .lists {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        font-size: 20px;
+
+        .content {
+            display: flex;
+            gap: 20px;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.main {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .navbar {
+        color: #1d374e;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+
+        .fa-bars {
+            font-size: 25px;
+        }
+
+        .admin {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+
+            .img {
+                width: 60px;
+                height: 60px;
+                border-radius: 45%;
+                display: flex;
+                background-color: white;
+
+                img {
+                    width: 100%;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+
+        h2 {
+            font-size: 27px;
+        }
+
+        .btns {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            #add {
+                cursor: pointer;
+                background-color: #1ec2a1;
+                font-size: 16px;
+                color: white;
+                border-radius: 10px;
+                border: 1px solid #1ec2a1;
+                padding: 9px;
+            }
+
+            .search {
+                input {
+                    padding: 9px;
+                    border-radius: 10px;
+                    border: 1px solid black;
+                }
+
+                #go {
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: transparent;
+                    padding: 9px;
+                    border: 1px solid black;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+.staff-table {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .fa-angle-up {
+            font-size: 30px;
+        }
+    }
+
+    p {
+        font-size: 19px;
+    }
+
+    .staff {
+        font-size: 20px;
+
+        thead td {
+            border-bottom: 2px solid rgba(0, 0, 0, 0.256);
+        }
+
+        button {
+            color: white;
+        }
+
+        #pen {
+            padding: 6px;
+            background-color: #69cfe9;
+            border-radius: 5px;
+            border: none;
+            margin-right: 5px;
+        }
+
+        #trash {
+            padding: 6px;
+            background-color: #e06768;
+            border-radius: 5px;
+            border: none;
+        }
+    }
+}

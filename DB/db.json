@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Fidan",
+      "email": "fidan@gmail.com",
+      "password": 123
+    }
+  ],
+  "company": [
+    {
+      "id": 1,
+      "companyName": "Azercell",
+      "location": "Baku",
+      "industry": "0",
+      "website": "instagram"
+    },
+    {
+      "name": "Pratt Vega Traders",
+      "location": "Eligendi est tempora",
+      "password": "Vel a qui ipsam et s",
+      "website": "https://www.vufiqevymiqire.ca",
+      "id": 2
+    },
+    {
+      "name": "Maddox Vinson Plc",
+      "location": "Reprehenderit vero ",
+      "password": "Pa$$w0rd!",
+      "website": "https://www.fipus.biz",
+      "id": 7
+    }
+  ]
+}

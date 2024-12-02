@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./loginAdmin.css">
+    <title>Login Admin</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logoHead">
+            <i class="fa-solid fa-paw"></i>
+            <span>Madani</span>
+        </div>
+        <div class="admin">
+            <div class="img"><img src="../download (1).jfif" alt=""></div>
+            <div class="content">
+                <p style="opacity: .7;">Welcome,</p>
+                <p>Super Admin</p>
+            </div>
+        </div>
+        <div class="lists">
+            <h4>General</h4>
+            <div class="content">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-list-check"></i>
+                <span>Projects</span>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-building"></i>
+                <span><a href="../company/companyLogin.css">Company</a></span>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-user"></i>
+                <span><a href="../user/userLogin.html">User</a></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="admin">
+                <div class="img"><img src="../download (1).jfif" alt=""></div>
+                <span>Super Admin <i class="fa-solid fa-angle-down"></i></span>
+            </div>
+        </div>
+        <div class="head">
+            <h2>Project Staff</h2>
+            <div class="btns">
+                <button id="add">Add New Staff</button>
+                <div class="search">
+                    <input type="text" placeholder="Search For...">
+                    <button id="go">Go!</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="staff-table">
+            <div class="content">
+                <h2>All Staff Members</h2>
+                <i class="fa-solid fa-angle-up"></i>
+            </div>
+            <p>List of the Staff with editable functions</p>
+            <table class="staff">
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>Name</td>
+                        <td>User Name</td>
+                        <td>Password</td>
+                        <td>Contact</td>
+                        <td>Address</td>
+                        <td>#Edit</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Wergie</td>
+                        <td>Wergie1</td>
+                        <td>*******</td>
+                        <td>+99450</td>
+                        <td>Baki</td>
+                        <td><button id="pen"><i class="fa-solid fa-pen"></i> Edit</button><button id="trash"><i
+                                    class="fa-solid fa-trash"></i> Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Eburu</td>
+                        <td>Eburu4</td>
+                        <td>*******</td>
+                        <td>+99451</td>
+                        <td>Baki</td>
+                        <td><button id="pen"><i class="fa-solid fa-pen"></i> Edit</button><button id="trash"><i
+                                    class="fa-solid fa-trash"></i> Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Fidan</td>
+                        <td>Fidan10</td>
+                        <td>*******</td>
+                        <td>+99451</td>
+                        <td>Baki</td>
+                        <td><button id="pen"><i class="fa-solid fa-pen"></i> Edit</button><button id="trash"><i
+                                    class="fa-solid fa-trash"></i> Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Kenan</td>
+                        <td>Kerimli</td>
+                        <td>*******</td>
+                        <td>+99451</td>
+                        <td>Baki</td>
+                        <td><button id="pen"><i class="fa-solid fa-pen"></i> Edit</button><button id="trash"><i
+                                    class="fa-solid fa-trash"></i> Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Rauf</td>
+                        <td>Rauf10</td>
+                        <td>*******</td>
+                        <td>+99451</td>
+                        <td>Baki</td>
+                        <td><button id="pen"><i class="fa-solid fa-pen"></i> Edit</button><button id="trash"><i
+                                    class="fa-solid fa-trash"></i> Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Urfan</td>
+                        <td>Urfan10</td>
+                        <td>*******</td>
+                        <td>+99451</td>
+                        <td>Baki</td>
+                        <td><button id="pen"><i class="fa-solid fa-pen"></i> Edit</button><button id="trash"><i
+                                    class="fa-solid fa-trash"></i> Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

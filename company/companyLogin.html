@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./companyLogin.css">
+    <script type="module" src="../JS/companyLogin.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js" integrity="sha512-v8+bPcpk4Sj7CKB11+gK/FnsbgQ15jTwZamnBf/xDmiQDcgOIYufBo6Acu1y30vrk8gg5su4x0CG3zfPaq5Fcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Company Login</title>
+</head>
+<body>
+    <div class="container">
+        <form class="company-login">
+            <div class="image">
+                <img src="../download.jfif" alt="" style="width: 100px;">
+            </div>
+            <h2>Company Login</h2>
+            <div class="input">
+                <label for="name">Company Name<span> *</span></label>
+                <input type="text " id="name">
+            </div>
+            <div class="input">
+                <label for="password">Password <span> *</span></label>
+                <input type="password" id="password">
+            </div>
+            <button type="submit" class="login">Login</button>
+            <p><a href="../user/userLogin.html">User Login Page</a></p>
+            <p><a href="./companyRegister.html">Don't have an account? Register</a></p>
+        </form>
+    </div>
+</body>
+</html>
