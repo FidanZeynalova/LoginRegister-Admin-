@@ -5,7 +5,7 @@
 }
 
 .sidebar {
-    width: 20%;
+    width: 15%;
     left: 0;
     background-color: #1d374e;
     height: 100vh;
@@ -69,7 +69,7 @@
 }
 
 .main {
-    width: 80%;
+    width: 85%;
     position: absolute;
     top: 0;
     right: 0;
@@ -174,9 +174,14 @@
 
     .staff {
         font-size: 20px;
+        border-collapse: collapse;
 
-        thead td {
-            border-bottom: 2px solid rgba(0, 0, 0, 0.256);
+        thead tr {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.173);
+        }
+
+        tr>td {
+            padding: 10px;
         }
 
         button {
