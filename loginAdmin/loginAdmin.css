@@ -5,7 +5,7 @@
 }
 
 .sidebar {
-    width: 15%;
+    width: 20%;
     left: 0;
     background-color: #1d374e;
     height: 100vh;
@@ -69,7 +69,7 @@
 }
 
 .main {
-    width: 85%;
+    width: 80%;
     position: absolute;
     top: 0;
     right: 0;
